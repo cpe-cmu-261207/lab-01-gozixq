@@ -1,0 +1,279 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7)
+    ,rgba(4,9,30,0.7)),
+    url(image/night-ach.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.face{
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.face:hover{
+    border: 0px solid #ffffff;
+    background: #000000;
+    transition: 1s;
+}
+
+.ig{
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 40.5%;
+}
+.ig:hover{
+    border: 0px solid #ffffff;
+    background: #000000;
+    transition: 1s;
+}
+.mail{
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 72%;
+}
+.mail:hover{
+    border: 0px solid #ffffff;
+    background: #000000;
+    transition: 1s;
+}
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7)
+    ,rgba(4,9,30,0.7)),
+    url(image/mmm.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7)
+    ,rgba(4,9,30,0.7)),
+    url(image/bau.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #910303;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.pic{
+    position: absolute;
+    top: 110%;
+    left: 2%;
+}
+
+.picpic{
+    position: absolute;
+    top: 110%;
+    left: 52%;
+}
+
+.text-box{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 26.3%;
+    transform: translate(-50,-50%);
+    text-align: center;
+}
+.text-box hi{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+nav.fa{
+    display: none;
+}
+
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 15px 0px rgba(4,9,30,0.7);
+}
+.course-col2:hover{
+    box-shadow: 0 0 15px 0px rgba(4,9,30,0.7);
+}
+
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.course-col h5{
+    color: rgb(1, 4, 43);
+}
+
+.course-col2 h5{
+    color: rgb(1, 4, 43);
+}
+
+
+
+p{
+    color: rgb(10, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 5px;
+    padding: 10px;
+}
+
+.course-col{
+    text-align: left;
+    position: absolute;
+    top: 135%;
+
+}
+
+.course-col2{
+    text-align: left;
+    position: absolute;
+    top: 135%;
+    left: 25%;
+}
+
+.skill h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.skill {
+    position: absolute;
+    top: 117%;
+    left: 60%;
+}
+
+.exp{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.exp-col{
+
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.exp-col img{
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
